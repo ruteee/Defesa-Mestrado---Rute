@@ -42,8 +42,11 @@
 % Para numerar as figuras
 \setbeamertemplate{caption}[numbered]
 
+
+
+
 % Título
-\title[Computer Engineering - Master]{A methodology for detection of causal relationships between discrete time series on systems}
+\title[Computer Engineering - Master's Thesis]{A methodology for detection of causal relationships between discrete time series on systems}
 % Data
 \date{January 25, 2019}
 % Autores
@@ -70,13 +73,25 @@
 % \DefineBibliographyStrings{portuguese}{%
 %   sinenomine  = {s.n.},
 % }
+
+
+\expandafter\patchcmd\csname beamerx@\string\beamer@framefootnotetext\endcsname
+  {\color@begingroup}
+  {\color@begingroup\toggletrue{blx@footnote}}
+  {\togglefalse{blx@tempa}}
+  {}
 \addbibresource{bib/bibliografia.bib}
 
 \begin{document}
+
+
+
+
+
 % Sumário
 \frame{\titlepage}
 \section[]{}
-\begin{frame}{Sumário}
+\begin{frame}{Contents}
 	\tableofcontents
 \end{frame}
 
