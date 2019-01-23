@@ -5,13 +5,13 @@
 % versao 1.1								 %
 % Atualizado em 14/05/2016					 %
 %--------------------------------------------%
-\documentclass[handout,t]{beamer}
+\documentclass[handout,t,compress]{beamer}
 % Para alterar a linguagem do documento
 % \usepackage[portuges]{babel}
 % Para aceitar caracteres especias deretamente do teclado
 \usepackage[utf8]{inputenc}
 % Para seguir as normas da ABNT de citacao e referencias
-\usepackage[style=abnt, backend=biber]{biblatex}%[2017/12/19]
+\usepackage[style=abnt, backend=biber]{biblatex}%[2017/12/19]?
 \usepackage{csquotes}
 % Para incluir figuras
 \usepackage{graphicx}
@@ -84,6 +84,13 @@
   {}
 \addbibresource{bib/bibliografia.bib}
 
+
+% \setbeamertemplate{footline}{%
+%     \ifnum\insertcontinuationcount>0
+%         \addtocounter{framenumber}{-1}
+%     \fi
+%     \insertframenumber/\inserttotalframenumber
+% }
 \begin{document}
 
 
@@ -97,25 +104,18 @@
 	\tableofcontents
 \end{frame}
 
-% Introducao
 \include{tex/1-introducao/introducao}
 
-% Data Streams
 \include{tex/2-theoretical/theoretical}
 
-% Estudo de Caso
-\include{tex/3-estudo-de-caso/estudo_de_caso}
+\include{tex/3-proposed_methodology/proposed_methodology}
 
-% Objetivos
-\include{tex/4-objetivos/obejetivos}
 
-% Aplicações
-\include{tex/5-aplicacoes/aplicacoes}
+\include{tex/4-study_case/study_case}
 
-% Conclusão
-\include{tex/6-conclusao/conclusao}
 
-% Referências
-\include{tex/7-referencias/referencias}
+\include{tex/5-conclusao/conclusao}
+
+\include{tex/6-referencias/referencias}
 
 \end{document}
