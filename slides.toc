@@ -1,0 +1,13 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Introduction}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{ Theoretical Foundations}{4}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Proposed Methodology}{21}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Objetivos}{22}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Aplica\IeC {\c c}\IeC {\~o}es}{25}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {7}{Conclus\IeC {\~a}o}{26}{0}{6}

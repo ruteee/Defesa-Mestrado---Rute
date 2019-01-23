@@ -97,6 +97,187 @@ It is related to the frequency of the appearance of each value or the amount of 
 
 \end{frame}
 
+\begin{frame}
+    \begin{align*}
+        \centering \textbf{Mutual Information}
+     \end{align*}
+
+    It is a measure derived from the Kullback-Leibler divergence. It is calculated between two processes \textit{I} and \textit{J} and quantifies the amount of information obtained about one process when observing the other. 
+
+    
+    It can be seen as the ``information produced by erroneously assuming that the two processes are independent''.\footnote{\cite{schreiber2000measuring}}
+
+    \begin{equation}
+        \label{eq:mutual}   
+            MI_{I, J} = \sum_{i,j}^{n}p(i,j)log \frac{p(i,j)}{p(i)\cdot p(j)}
+        \end{equation}
+
+\end{frame}
+
+\begin{frame}
+    \begin{align*}
+        \centering \textbf{Transfer Entropy}
+     \end{align*}
+
+     It is a theoretical measure ``that shares some of the desired properties of mutual information but takes the dynamics of information transport into account''.\footnote{\cite{schreiber2000measuring}}
+
+     \begin{equation} 
+        \label{eq:trans-entropy}
+        TE_{{J}->{I}} = \sum_{i,i_{t+h},j} p({i}_{t+h}, {i}_{t}^{k}, {j}_{t}^{l}) log\frac{p({i}_{t+h}\mid {i}_{t}^{k}, {j}_{t}^{l})}{p({i}_{t+h}\mid {i}_{t}^{k})}
+        \end{equation} 
+
+    
+\end{frame}
+
+\begin{frame}
+	       
+    \begin{equation} 
+        \label{eq:trans-entropy}
+        TE_{{J}->{I}} = \sum_{i,i_{t+h},j} p({i}_{t+h}, {i}_{t}^{k}, {j}_{t}^{l}) log\frac{p({i}_{t+h}\mid {i}_{t}^{k}, {j}_{t}^{l})}{p({i}_{t+h}\mid {i}_{t}^{k})}
+        \end{equation} 
+        
+        \begin{equation}
+        \label{eq_ik}
+            {i}^{k} =[{i_{t},...,{i}_{t-k+1}}] 
+        \end{equation}
+        
+        \begin{equation}
+        \label{eq_jk}
+            {j}^{l}=[{j_{t},...,{j}_{t-l+1}}]
+        \end{equation}
+
+        \begin{itemize}
+            \item It infers the veracity of the equation: 
+        \end{itemize}
+
+        
+
+        \begin{equation}
+            \label{eq:kullb}
+                p({i}_{t+h}\mid {i}_{t}^{k}, {j}_{t}^{l}) =  p({i}_{t+h}\mid {i}_{t}^{k})
+        \end{equation}
+    
+\end{frame}
+
+\begin{frame}
+Understanding of the parameters (Example)
+    \begin{itemize}
+        \item Series size = 6 samples
+        \item k = 3 samples
+        \item l = 2 samples
+        \item h = 1 sample
+        
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[scale=0.2]{figuras/te_sim.png}
+        \caption{Choosing of the samples in TE.}
+        \label{fig:te_sim}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \begin{align*}
+        \centering \textbf{Bayesian Networks}
+    \end{align*}
+    \begin{itemize}
+        \item Probabilistic models based on direct acyclic graphs.
+        \item The nodes represent variables of interest, while the connections represent relationships of informational or causal dependencies.\footnote{\cite{pearl2011bayesian}}
+        \item Every dependence relationships is a conditional probability of a node, given its parents.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[scale=0.3]{figuras/asia.png}
+        \caption{Bayesian Network Asia}
+        \label{fig:asia}
+    \end{figure}
+
+\end{frame}
+
+\begin{frame}
+    Properties
+    \begin{itemize}
+        \item {It factors the joint the distribution of the variable into local joint distributions.
+        
+        \begin{equation}
+            P(A_n,\cap ... \cap A_1) = \prod_i^n P(A_i \mid \cap_{j=1}^{j-1}A_j)           
+            \label{eq:bayes}
+        \end{equation}
+
+        \begin{equation}
+            P(A_n,\cap ...\cap A_1) = \prod_{i=1}^n P(A_i|pa_i)
+            \label{eq:compact_joint}
+        \end{equation}
+
+        \begin{equation}
+            P(Tuberc.\mid Cancer,\ Bronch.,\ Asia) = P(Tuberc.\mid Cancer)
+            \label{eq:ind_cond}
+        \end{equation}    
+        }
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{align*}
+        \centering \textbf{ Stuctural Learning in Bayesian Networks}
+    \end{align*}    
+\end{frame}
+
+
+\begin{frame}
+    \begin{align*}
+        \centering \textbf{ K2 - Algorithm}
+    \end{align*}
+    
+    \begin{itemize}
+        \item {Bayesian method for estimating a probabilistic network from data.}
+
+        \item {The algorithm searchs for the network that has the highest posterior probability given a database of records}
+        \item {Necessity of a prior ordering on nodes.}
+        \item { Scores each local network with the following metric:
+        \begin{equation}
+            P(B_s, D) = c \prod_{i=1}^{n}\prod_{j=1}^{q_{i}}\frac{(r_i - 1)!}{(N_{ij} + r_i -1)!}\prod_{k=1}^{r_i}N_{ijk}!
+         \label{eq:cooper-metric-gen}
+        \end{equation}
+        }
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}
+
+
+        \begin{columns}
+	    \column{0.7\textwidth}\centering
+        \begin{figure}[!h]
+            \centering
+            \includegraphics[scale=0.45]{figuras/cases_cooper.png}
+            \caption{Database of cases}
+            \label{fig:casesCoop}
+        \end{figure}
+        \column{0.3\textwidth}\centering
+        \begin{figure}[!h]
+            \centering
+            \includegraphics[scale=0.45]{figuras/typicOrder.png}
+            \caption{Possible structure.}
+            \label{fig:casesCoop}
+        \end{figure}
+	      
+    \end{columns}
+\end{frame}
+    
+\begin{frame}
+
+  
+\end{frame}
+
 
 
 

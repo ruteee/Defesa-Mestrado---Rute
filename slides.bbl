@@ -1,0 +1,372 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{hu2017cause}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=e545527c2f756ed67cea4f57136787ee}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Wenkai},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f65847279d16b9beaac7c93ca5e1ae40}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jiandong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=68e5348e2861b65173228d874e3b7355}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tongwen},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4ed8bf6e7e922ee45b39e56f51cd871a}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Sirish\bibnamedelima L},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{594de8cda1c01e24a9dbe71d624c7481}
+      \strng{fullhash}{2921ff850d1cd562084fd360f28e2b3d}
+      \strng{bibnamehash}{594de8cda1c01e24a9dbe71d624c7481}
+      \strng{authorbibnamehash}{594de8cda1c01e24a9dbe71d624c7481}
+      \strng{authornamehash}{594de8cda1c01e24a9dbe71d624c7481}
+      \strng{authorfullhash}{2921ff850d1cd562084fd360f28e2b3d}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Control Engineering Practice}
+      \field{title}{Cause-effect analysis of industrial alarm variables using transfer entropies}
+      \field{volume}{64}
+      \field{year}{2017}
+      \field{pages}{205\bibrangedash 214}
+      \range{pages}{10}
+    \endentry
+    \entry{pearl2011bayesian}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=809f695b398afbb54b544c49e8d1bbbb}{%
+           family={Pearl},
+           familyi={P\bibinitperiod},
+           given={Judea},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{fullhash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{bibnamehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{authorbibnamehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{authornamehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{authorfullhash}{809f695b398afbb54b544c49e8d1bbbb}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bayesian networks}
+      \field{year}{2011}
+    \endentry
+    \entry{schreiber2000measuring}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3f917f8d0eea8255430415c671650bd4}{%
+           family={Schreiber},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{3f917f8d0eea8255430415c671650bd4}
+      \strng{fullhash}{3f917f8d0eea8255430415c671650bd4}
+      \strng{bibnamehash}{3f917f8d0eea8255430415c671650bd4}
+      \strng{authorbibnamehash}{3f917f8d0eea8255430415c671650bd4}
+      \strng{authornamehash}{3f917f8d0eea8255430415c671650bd4}
+      \strng{authorfullhash}{3f917f8d0eea8255430415c671650bd4}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review letters}
+      \field{number}{2}
+      \field{title}{Measuring information transfer}
+      \field{volume}{85}
+      \field{year}{2000}
+      \field{pages}{461}
+      \range{pages}{1}
+    \endentry
+    \entry{su2017capturing}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=7a5a8d98b9f13b360c167a7a4718dde5}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Jianjun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6ad092b91c768af97c354398c4499bc8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Dezheng},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6bb198ca5be9549584faba80128326c7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yinong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bac6a7a5d8c835c2ebe5288a6fe722b4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a4f73ac848ac3c9c063cd26132a4b7c6}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=16b530e2f0568982d4aea4d2d9f4ed05}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Xiangkun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{3eaaba7eca186e1884ee429dcb7b39bc}
+      \strng{fullhash}{64267521dc3d13abfcf87257fa4db48c}
+      \strng{bibnamehash}{3eaaba7eca186e1884ee429dcb7b39bc}
+      \strng{authorbibnamehash}{3eaaba7eca186e1884ee429dcb7b39bc}
+      \strng{authornamehash}{3eaaba7eca186e1884ee429dcb7b39bc}
+      \strng{authorfullhash}{64267521dc3d13abfcf87257fa4db48c}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Entropy}
+      \field{number}{12}
+      \field{title}{Capturing Causality for Fault Diagnosis Based on Multi-Valued Alarm Series Using Transfer Entropy}
+      \field{volume}{19}
+      \field{year}{2017}
+      \field{pages}{663}
+      \range{pages}{1}
+    \endentry
+    \entry{tung2007inferring}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=971d44c192059010228bb0d9eec5c789}{%
+           family={Tung},
+           familyi={T\bibinitperiod},
+           given={Thai\bibnamedelima Quang},
+           giveni={T\bibinitperiod\bibinitdelim Q\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3c938c04ef8336ccbfc0c5f8d1824423}{%
+           family={Ryu},
+           familyi={R\bibinitperiod},
+           given={Taewoo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=add43a70c217a742694485fcb4ed9af6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kwang\bibnamedelima H},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b085a81df58573d374b21f5c11971024}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Doheon},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Maribor, Slovenia}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{ef7a07ef382ada37d2215e7556575bbe}
+      \strng{fullhash}{f831448599337b1c2fafaa9c5208233b}
+      \strng{bibnamehash}{ef7a07ef382ada37d2215e7556575bbe}
+      \strng{authorbibnamehash}{ef7a07ef382ada37d2215e7556575bbe}
+      \strng{authornamehash}{ef7a07ef382ada37d2215e7556575bbe}
+      \strng{authorfullhash}{f831448599337b1c2fafaa9c5208233b}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Computer-Based Medical Systems, 2007. CBMS'07. Twentieth IEEE International Symposium on Computer-Based Medical Systems}
+      \field{title}{Inferring gene regulatory networks from microarray time series data using transfer entropy}
+      \field{year}{2007}
+      \field{pages}{383\bibrangedash 388}
+      \range{pages}{6}
+    \endentry
+    \entry{vicente2011transfer}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=6afbbd01fc36f7db9f7ab695679c1235}{%
+           family={Vicente},
+           familyi={V\bibinitperiod},
+           given={Raul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b28cc7b4dfd261ce990d63e7e79adb36}{%
+           family={Wibral},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2c7bcdf27adda8c6dbbaa1ee74312c49}{%
+           family={Lindner},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fc589f8d0d85e42c9326684c4e155520}{%
+           family={Pipa},
+           familyi={P\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{740ceb1bcb59b12e855c32a1c9c7ed44}
+      \strng{fullhash}{828d75061e4b3e72a04470df5e06b71c}
+      \strng{bibnamehash}{740ceb1bcb59b12e855c32a1c9c7ed44}
+      \strng{authorbibnamehash}{740ceb1bcb59b12e855c32a1c9c7ed44}
+      \strng{authornamehash}{740ceb1bcb59b12e855c32a1c9c7ed44}
+      \strng{authorfullhash}{828d75061e4b3e72a04470df5e06b71c}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of computational neuroscience}
+      \field{number}{1}
+      \field{title}{Transfer entropy—a model-free measure of effective connectivity for the neurosciences}
+      \field{volume}{30}
+      \field{year}{2011}
+      \field{pages}{45\bibrangedash 67}
+      \range{pages}{23}
+    \endentry
+    \entry{yu2015detection}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1586882253aa3b55a8190684b2e2518f}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Weijun},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bac6a7a5d8c835c2ebe5288a6fe722b4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{7bfc1ef3c2efc73291e4edc818d01c1c}
+      \strng{fullhash}{7bfc1ef3c2efc73291e4edc818d01c1c}
+      \strng{bibnamehash}{7bfc1ef3c2efc73291e4edc818d01c1c}
+      \strng{authorbibnamehash}{7bfc1ef3c2efc73291e4edc818d01c1c}
+      \strng{authornamehash}{7bfc1ef3c2efc73291e4edc818d01c1c}
+      \strng{authorfullhash}{7bfc1ef3c2efc73291e4edc818d01c1c}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Entropy}
+      \field{number}{8}
+      \field{title}{Detection of causality between process variables based on industrial alarm data using transfer entropy}
+      \field{volume}{17}
+      \field{year}{2015}
+      \field{pages}{5868\bibrangedash 5887}
+      \range{pages}{20}
+    \endentry
+    \entry{zou2009granger}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1595563ab9ac87a8c7a29ec4e793d924}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Cunlu},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9eaddaa496bf0b91ab3628d26d177ac1}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {BioMed Central}%
+      }
+      \strng{namehash}{244c58fc6337755c3b7b5780f0c076a8}
+      \strng{fullhash}{244c58fc6337755c3b7b5780f0c076a8}
+      \strng{bibnamehash}{244c58fc6337755c3b7b5780f0c076a8}
+      \strng{authorbibnamehash}{244c58fc6337755c3b7b5780f0c076a8}
+      \strng{authornamehash}{244c58fc6337755c3b7b5780f0c076a8}
+      \strng{authorfullhash}{244c58fc6337755c3b7b5780f0c076a8}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC bioinformatics}
+      \field{number}{1}
+      \field{title}{Granger causality vs. dynamic Bayesian network inference: a comparative study}
+      \field{volume}{10}
+      \field{year}{2009}
+      \field{pages}{122}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
