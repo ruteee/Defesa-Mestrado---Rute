@@ -1,8 +1,18 @@
 \BOOKMARK [2][]{Outline0.1}{}{}% 1
 \BOOKMARK [2][]{Outline0.2}{Introduction}{}% 2
 \BOOKMARK [2][]{Outline0.3}{ Theoretical Foundations}{}% 3
-\BOOKMARK [2][]{Outline0.4}{Proposed Methodology}{}% 4
-\BOOKMARK [2][]{Outline0.5}{Objetivos}{}% 5
-\BOOKMARK [2][]{Outline0.6}{Aplica\347\365es}{}% 6
-\BOOKMARK [2][]{Outline0.7}{Conclus\343o}{}% 7
-\BOOKMARK [2][]{Outline0.8}{Refer\352ncias}{}% 8
+\BOOKMARK [3][]{Outline0.3.1.5}{Entropy}{Outline0.3}% 4
+\BOOKMARK [3][]{Outline0.3.2.8}{Kullback-Leibler Divergence}{Outline0.3}% 5
+\BOOKMARK [3][]{Outline0.3.3.10}{Mutual Information}{Outline0.3}% 6
+\BOOKMARK [3][]{Outline0.3.4.11}{Transfer Entropy}{Outline0.3}% 7
+\BOOKMARK [3][]{Outline0.3.5.15}{Bayesian Networks}{Outline0.3}% 8
+\BOOKMARK [3][]{Outline0.3.6.18}{K2-Algorithm}{Outline0.3}% 9
+\BOOKMARK [2][]{Outline0.4}{Proposed Methodology}{}% 10
+\BOOKMARK [3][]{Outline0.4.1.23}{Generation of graph of information flow}{Outline0.4}% 11
+\BOOKMARK [3][]{Outline0.4.2.24}{Application of Statistical Threshold}{Outline0.4}% 12
+\BOOKMARK [3][]{Outline0.4.3.27}{Removal of Cycles}{Outline0.4}% 13
+\BOOKMARK [3][]{Outline0.4.4.29}{Generation of Common and Virtual Ancestors}{Outline0.4}% 14
+\BOOKMARK [3][]{Outline0.4.5.31}{Modification and Computation of K2}{Outline0.4}% 15
+\BOOKMARK [2][]{Outline0.5}{Case Study and Results}{}% 16
+\BOOKMARK [2][]{Outline0.6}{Conclusions}{}% 17
+\BOOKMARK [2][]{Outline0.7}{Refer\352ncias}{}% 18

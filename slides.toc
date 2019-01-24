@@ -4,10 +4,30 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {3}{ Theoretical Foundations}{4}{0}{2}
 \defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Entropy}{5}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{2}{Kullback-Leibler Divergence}{8}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{3}{Mutual Information}{10}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{4}{Transfer Entropy}{11}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{5}{Bayesian Networks}{15}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{6}{K2-Algorithm}{18}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {4}{Proposed Methodology}{21}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Objetivos}{22}{0}{4}
+\beamer@subsectionintoc {4}{1}{Generation of graph of information flow}{23}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Aplica\IeC {\c c}\IeC {\~o}es}{25}{0}{5}
+\beamer@subsectionintoc {4}{2}{Application of Statistical Threshold}{24}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Conclus\IeC {\~a}o}{26}{0}{6}
+\beamer@subsectionintoc {4}{3}{Removal of Cycles}{27}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{4}{Generation of Common and Virtual Ancestors}{29}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{5}{Modification and Computation of K2}{31}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Case Study and Results}{32}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Conclusions}{33}{0}{5}
