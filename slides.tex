@@ -5,6 +5,7 @@
 % versao 1.1								 %
 % Atualizado em 14/05/2016					 %
 %--------------------------------------------%
+%draft
 \documentclass[handout,t,compress]{beamer}
 % Para alterar a linguagem do documento
 % \usepackage[portuges]{babel}
@@ -44,6 +45,7 @@
 % Para numerar as figuras
 \setbeamertemplate{caption}[numbered]
 
+\usepackage{multicol}
 
 
 
@@ -98,11 +100,20 @@
 
 
 % Sumário
-\frame{\titlepage}
-\section[]{}
-\begin{frame}{Contents}
-	\tableofcontents
+\begin{frame}
+    \the\textwidth
+    
+    \the\textheight
 \end{frame}
+\frame{\titlepage}
+
+\begin{frame}{Contents}
+    \begin{multicols}{2}
+	    \tableofcontents
+	\end{multicols}
+\end{frame}
+
+
 
 \include{tex/1-introducao/introducao}
 

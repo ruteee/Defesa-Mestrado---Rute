@@ -164,7 +164,7 @@ Properties:
 \begin{frame}{Theoretical Foundations - Transfer Entropy}
 Understanding of the parameters (Example)
     \begin{itemize}
-        \item Series size = 6 samples
+        \item Series size = 7 samples
         \item k = 3 samples
         \item l = 2 samples
         \item h = 1 sample
@@ -183,7 +183,7 @@ Understanding of the parameters (Example)
 
     \begin{figure}[!h]
         \centering
-        \includegraphics[scale=0.25]{figuras/te_sim.png}
+        \includegraphics[scale=0.2]{figuras/te_sim.png}
         \caption{Choosing of the samples in TE.}
         \label{fig:te_sim}
     \end{figure}
@@ -235,33 +235,34 @@ Understanding of the parameters (Example)
 
 \subsection{K2-Algorithm}
 \begin{frame}{Theoretical Foundations - K2 Algorithm}
-    \begin{align*}
-        \centering \textbf{ K2 - Algorithm}
-    \end{align*}
-    
-    \begin{itemize}
-        \item {Bayesian method for estimating a probabilistic network from data.}
-
-        \item {The algorithm searchs for the network that has the highest posterior probability given a database of records.}
-        \item {Necessity of a prior ordering on nodes.}
-        \item { Scores each local network in order to find the most probable structure.}
-        % \begin{equation}
-        %     P(B_s, D) = c \prod_{i=1}^{n}\prod_{j=1}^{q_{i}}\frac{(r_i - 1)!}{(N_{ij} + r_i -1)!}\prod_{k=1}^{r_i}N_{ijk}!
-        %  \label{eq:cooper-metric-gen}
-        % \end{equation}
-        % }
-    \end{itemize}
+\begin{columns}
+    \column{0.5\textwidth}
+        \textbf{Characteristics:}
+        \begin{itemize}
+            \item {Bayesian method for estimating a probabilistic network from data.}
+            \item {It searches for the network that has the highest posterior probability given a database of records.}
+            \item { It Scores each local network in order to find the most probable structure}
+        \end{itemize}
+    \column{0.5\textwidth}
+        \textbf{Input:}
+        \begin{itemize}
+            \item A set of nodes.
+            \item A prior ordering on the nodes.
+        \end{itemize}
+        \textbf{Output:}
+        \begin{itemize}
+            \item The parent set of each node
+        \end{itemize}
+\end{columns}
     
 \end{frame}
 
-\begin{frame}
-
-
+\begin{frame}{Theoretical Foundations - K2 Algorithm}
         \begin{columns}
 	    \column{0.7\textwidth}\centering
         \begin{figure}[!h]
             \centering
-            \includegraphics[scale=0.45]{figuras/cases_cooper.png}
+            \includegraphics[scale=0.4]{figuras/cases_cooper.png}
             \caption{Database of cases}
             \label{fig:casesCoop}
         \end{figure}
@@ -275,12 +276,12 @@ Understanding of the parameters (Example)
 	      
     \end{columns}
 \end{frame}
-    
-\begin{frame}
+
+\begin{frame}{Theoretical Foundations - K2 Algorithm}
 
 \begin{figure}[!h]
             \centering
-            \includegraphics[height=72mm]{figuras/K2.png}
+            \includegraphics{figuras/k2.pdf}
             \caption{K2-Algorithm}
             \label{fig:k2}
         \end{figure}
